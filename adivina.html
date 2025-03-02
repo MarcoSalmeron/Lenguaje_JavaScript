@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: darkcyan;
+        }
+        .contenedor{
+            background-color: burlywood;
+            padding: 5%;
+        }
+        h1, p{
+            text-align: center;
+        }
+        input , button{
+            padding: 10px;
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+
+    <div class="contenedor">
+
+    <h1>Adivina un Numero</h1>
+    <strong><p id="mensaje">Adivina entre el 1 al 10!</p></strong>
+
+    <input type="number" id="guess">
+    <button id="check">COMPROBAR</button>
+    <button id="reset">REINICIAR</button>
+    <p id="resultado"></p>
+
+    </div>
+    
+
+    <script src="js/adivinar.js"></script>
+</body>
+</html>
